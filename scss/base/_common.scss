@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.custom-btn{
+    background-color: $secondary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: 0.4s;
+    &:hover{
+        background-color: $primary-color;
+        color: white;
+    }
+}
+
+.section-heading{
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-bottom: 40px;
+}

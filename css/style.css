@@ -1,0 +1,95 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.custom-btn {
+  background-color: #ED7701;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: 0.4s;
+}
+.custom-btn:hover {
+  background-color: #0B732B;
+  color: white;
+}
+
+.section-heading {
+  background-color: #0B732B;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+
+header .top-header {
+  background-color: #088F33;
+  position: relative;
+}
+header .top-header .logo {
+  position: absolute;
+  top: 0px;
+  border: 5px solid #ED7701;
+  width: 180px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-top: none;
+  z-index: 99;
+}
+header .nab-bar {
+  background-color: #0B732B;
+}
+
+.banner-section .carousel .carousel-caption {
+  right: 10%;
+  left: initial;
+  bottom: initial;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: end;
+  width: 40%;
+}
+.banner-section .carousel img {
+  height: 80vh;
+}
+
+.about-us {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 30px;
+}
+.about-us .custom-btn {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.about-us ul li {
+  font-weight: 500;
+}
+.about-us ul li:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

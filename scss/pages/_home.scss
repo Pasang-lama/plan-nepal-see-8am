@@ -1,0 +1,36 @@
+.banner-section{
+    .carousel{
+        .carousel-caption {
+            right: 10%;
+            left: initial;
+            bottom: initial;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: end;
+            width: 40%;
+
+        }
+        img{
+            height: 80vh;
+        }
+    }
+}
+
+.about-us{
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 30px;
+    .custom-btn{
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    ul{
+        li{
+            font-weight: 500;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
