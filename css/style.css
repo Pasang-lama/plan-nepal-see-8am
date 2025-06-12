@@ -69,6 +69,28 @@ header .nab-bar {
   background-color: #0B732B;
 }
 
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 80px 0px;
+}
+footer h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+footer ul {
+  padding-left: 0px;
+}
+footer ul li {
+  padding-bottom: 5px;
+  transition: 0.5s;
+}
+footer ul li:hover {
+  color: #ED7701;
+  transform: translateX(10px);
+}
+
 .banner-section .carousel .carousel-caption {
   right: 10%;
   left: initial;
